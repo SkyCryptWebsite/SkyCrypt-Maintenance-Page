@@ -2,3 +2,9 @@ allowBuilds:
   sharp: true
   workerd: true
   esbuild: true
+  "@tailwindcss/oxide": true
+
+updateConfig:
+  ignoreDependencies:
+    - typescript
+    - "@types/node"

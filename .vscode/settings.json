@@ -1,5 +1,34 @@
 {
-	"files.associations": {
-		"*.css": "tailwindcss"
-	}
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    ".env*": "dotenv"
+  },
+  "git.autofetch": true,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": true,
+  "tailwindCSS.experimental.configFile": "./src/routes/layout.css",
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "plaintext": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "svelte": "html"
+  },
+  "tailwindCSS.classFunctions": ["cn", "payload"],
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "class:list", "payload"],
+  "tailwindCSS.experimental.classRegex": [
+    ["\\b\\w*Classes\\s*=\\s*[\"']([^\"']*)[\"']", "([^\\s]+)"],
+    ["\\b\\w*Classes\\s*=\\s*\\{\\s*[\"']([^\"']*)[\"']\\s*\\}", "([^\\s]+)"]
+  ],
+  "js/ts.updateImportsOnFileMove.enabled": "prompt",
+  "eslint.validate": ["javascript", "typescript", "svelte"],
+  "oxc.fmt.configPath": ".oxfmtrc.json",
+  "js/ts.tsdk.path": "node_modules/typescript/lib"
 }
