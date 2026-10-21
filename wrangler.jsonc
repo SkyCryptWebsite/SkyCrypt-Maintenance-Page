@@ -9,5 +9,8 @@
     "directory": ".svelte-kit/cloudflare"
   },
   "workers_dev": true,
-  "preview_urls": true
+  "preview_urls": true,
+  "vars": {
+    "PUBLIC_DISCORD_INVITE": "https://discord.gg/cNgADv2kEQ"
+  }
 }
